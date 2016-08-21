@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 
+import Header from './components/header';
+
 
 const App=()=>{
 	return(
-		<h1> Hello There</h1>
+		< Header />
 		);
 };
 
 
 Meteor.startup(()=>{
-	ReactDom.render(<App />, document.querySelector('.render-target'))
+	ReactDom.render(<App />, document.querySelector('.render-target'));
 });
