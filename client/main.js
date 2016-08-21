@@ -2,11 +2,16 @@ import React from 'react';
 import ReactDom from 'react-dom';
 
 import Header from './components/header';
+import LinkCreate from './components/link_create';
 
 
 const App=()=>{
 	return(
-		< Header />
+		<div>
+			< Header />
+			<LinkCreate />
+		</div>
+
 		);
 };
 
