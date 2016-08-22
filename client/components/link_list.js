@@ -8,7 +8,6 @@ class LinkList extends Component {
 
 			const { url, token, clicks} = link;
 			const shortLink = 'http://localhost:3000/' + token;
-			console.log(token);
 
 			return (
 				<tr key={token}>
